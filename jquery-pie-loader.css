@@ -1,0 +1,49 @@
+/* 
+ *   jQuery Pie-Loader Plugin 0.1
+ *
+ *   Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/MIT
+ */
+.svg-pie {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.svg-pie svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  transform: rotate(-90deg);
+}
+.svg-pie .percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: Helvetica;
+  font-size: 2rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+.rendered.svg-pie {
+  background: none;
+}
+.rendered.svg-pie .percentage {
+  opacity: 1;
+}
+
+.svg-pie {
+  background: #354a5f;
+  box-shadow: none;
+}
+.svg-pie circle:nth-child(1) {
+  fill: #354a5f;
+}
+.svg-pie circle:nth-child(2) {
+  fill: #354a5f;
+  stroke: #e74d3c;
+}
+.svg-pie .percentage {
+  color: white;
+}
