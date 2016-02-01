@@ -1,7 +1,7 @@
 /**
- * @author  Antonin Cezard <anc@ecedi.fr>
- * @license http://www.opensource.org/licenses/MIT MIT
- * jQuery SVG-pie Plugin 0.1
+ *   @author  Antonin Cezard <anc@ecedi.fr>
+ *   @license http://www.opensource.org/licenses/MIT MIT
+ *   jQuery Pie-Loader Plugin 0.1
  *
  *   Based on jQuery Boilerplate by Zeno Rocha with the help of Addy Osmani
  *   http://jqueryboilerplate.com
