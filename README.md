@@ -11,23 +11,23 @@ A lightweight jQuery plugin to animate a SVG pie loader
 Include script after the jQuery library:
 
 ```html
-<script type="text/javascript" src="/path/to/jquery-svgpie.js"></script>
+<script type="text/javascript" src="/path/to/jquery-pie-loader.js"></script>
 ```
 Recommended : use the scss file and customize easily your pie colors.
 
 Alternatively you can include the css 
 ```html
-<link rel="stylesheet" href="/path/to/jquery-svgpie.css"></script>
+<link rel="stylesheet" href="/path/to/jquery-pie-loader.css"></script>
 ```
 
 ### Usage
 
 ```html
-<figure id="my-item" class="svg-pie"></figure>
+<figure id="my-item" class="pie-loader"></figure>
 ```
 
 ```js
-$('#my-item').svgPie( options )
+$('#my-item').pieLoader( options )
 ```
 
 ### Options
